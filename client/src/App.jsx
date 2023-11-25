@@ -1,7 +1,11 @@
 import React, { useState } from "react";
+
+// import file in component Folder
 import TodoList from "./components/TodoList";
 import Input from "./components/Input";
 import Button from "./components/Button";
+
+// npm install styled-components
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -12,6 +16,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
 `;
 
 function App() {
